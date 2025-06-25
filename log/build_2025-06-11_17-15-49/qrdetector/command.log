@@ -1,0 +1,2 @@
+Invoking command in '/home/ros/ros2_wrs_qr/build/qrdetector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros2_wrs_qr/src/qrdetector -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_wrs_qr/install/qrdetector
+Invoked command in '/home/ros/ros2_wrs_qr/build/qrdetector' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros2_wrs_qr/src/qrdetector -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_wrs_qr/install/qrdetector

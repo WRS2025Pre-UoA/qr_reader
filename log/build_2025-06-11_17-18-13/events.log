@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (qr_detector) JobQueued: {'identifier': 'qr_detector', 'dependencies': OrderedDict()}
+[0.000809] (qr_detector) JobStarted: {'identifier': 'qr_detector'}
+[0.011704] (qr_detector) JobProgress: {'identifier': 'qr_detector', 'progress': 'cmake'}
+[0.012336] (qr_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_wrs_qr/src/qrdetector', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_wrs_qr/install/qr_detector'], 'cwd': '/home/ros/ros2_wrs_qr/build/qr_detector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1336'), ('SYSTEMD_EXEC_PID', '1443'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:30210'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/home/ros/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-Inspiron-13-7378:@/tmp/.ICE-unix/1419,unix/ros-Inspiron-13-7378:/tmp/.ICE-unix/1419'), ('INVOCATION_ID', '55e869c712ab442bbaf188d9c4adc885'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J12Q72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f5a5f9eea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_wrs_qr/build/qr_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097644] (qr_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099614] (-) TimerEvent: {}
+[0.181961] (qr_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.190519] (qr_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199717] (-) TimerEvent: {}
+[0.289563] (qr_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299810] (-) TimerEvent: {}
+[0.304585] (qr_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.304937] (qr_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.305580] (qr_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.310590] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401925] (-) TimerEvent: {}
+[0.435475] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450763] (qr_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.451161] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.451940] (qr_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.455305] (qr_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.502022] (-) TimerEvent: {}
+[0.602993] (-) TimerEvent: {}
+[0.703443] (-) TimerEvent: {}
+[0.803757] (-) TimerEvent: {}
+[0.904116] (-) TimerEvent: {}
+[1.004556] (-) TimerEvent: {}
+[1.016666] (qr_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.104667] (-) TimerEvent: {}
+[1.154706] (qr_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.204839] (-) TimerEvent: {}
+[1.214008] (qr_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.221920] (qr_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.236276] (qr_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.256385] (qr_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.285576] (qr_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304939] (-) TimerEvent: {}
+[1.336880] (qr_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.340759] (qr_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.405049] (-) TimerEvent: {}
+[1.451543] (qr_detector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.505138] (-) TimerEvent: {}
+[1.507733] (qr_detector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.582299] (qr_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.595321] (qr_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.605672] (-) TimerEvent: {}
+[1.692273] (qr_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.693078] (qr_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.705760] (-) TimerEvent: {}
+[1.786516] (qr_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.787732] (qr_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.805904] (-) TimerEvent: {}
+[1.852725] (qr_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.889221] (qr_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.901045] (qr_detector) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.905980] (-) TimerEvent: {}
+[1.955526] (qr_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.959777] (qr_detector) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.960846] (qr_detector) StdoutLine: {'line': b"-- Checking for module 'zbar'\n"}
+[1.973116] (qr_detector) StdoutLine: {'line': b'--   Found zbar, version 0.23.92\n'}
+[2.006091] (-) TimerEvent: {}
+[2.084089] (qr_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.103585] (qr_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[2.106189] (-) TimerEvent: {}
+[2.111248] (qr_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_wrs_qr/build/qr_detector\n'}
+[2.133060] (qr_detector) CommandEnded: {'returncode': 0}
+[2.135274] (qr_detector) JobProgress: {'identifier': 'qr_detector', 'progress': 'build'}
+[2.135757] (qr_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_wrs_qr/build/qr_detector', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros2_wrs_qr/build/qr_detector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1336'), ('SYSTEMD_EXEC_PID', '1443'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:30210'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/home/ros/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-Inspiron-13-7378:@/tmp/.ICE-unix/1419,unix/ros-Inspiron-13-7378:/tmp/.ICE-unix/1419'), ('INVOCATION_ID', '55e869c712ab442bbaf188d9c4adc885'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J12Q72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f5a5f9eea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_wrs_qr/build/qr_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.189037] (qr_detector) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/qr_detector_node.dir/src/qr_detector_node.cpp.o\x1b[0m\n'}
+[2.206297] (-) TimerEvent: {}
+[2.306643] (-) TimerEvent: {}
+[2.406977] (-) TimerEvent: {}
+[2.507282] (-) TimerEvent: {}
+[2.607600] (-) TimerEvent: {}
+[2.707947] (-) TimerEvent: {}
+[2.808268] (-) TimerEvent: {}
+[2.908586] (-) TimerEvent: {}
+[3.008923] (-) TimerEvent: {}
+[3.109254] (-) TimerEvent: {}
+[3.209547] (-) TimerEvent: {}
+[3.309885] (-) TimerEvent: {}
+[3.410263] (-) TimerEvent: {}
+[3.510703] (-) TimerEvent: {}
+[3.610993] (-) TimerEvent: {}
+[3.711320] (-) TimerEvent: {}
+[3.811646] (-) TimerEvent: {}
+[3.911935] (-) TimerEvent: {}
+[4.012244] (-) TimerEvent: {}
+[4.112556] (-) TimerEvent: {}
+[4.212889] (-) TimerEvent: {}
+[4.313195] (-) TimerEvent: {}
+[4.413506] (-) TimerEvent: {}
+[4.513838] (-) TimerEvent: {}
+[4.614139] (-) TimerEvent: {}
+[4.714465] (-) TimerEvent: {}
+[4.814792] (-) TimerEvent: {}
+[4.915076] (-) TimerEvent: {}
+[5.015387] (-) TimerEvent: {}
+[5.115680] (-) TimerEvent: {}
+[5.215967] (-) TimerEvent: {}
+[5.316273] (-) TimerEvent: {}
+[5.416599] (-) TimerEvent: {}
+[5.516957] (-) TimerEvent: {}
+[5.617293] (-) TimerEvent: {}
+[5.717638] (-) TimerEvent: {}
+[5.817989] (-) TimerEvent: {}
+[5.918551] (-) TimerEvent: {}
+[6.018858] (-) TimerEvent: {}
+[6.119172] (-) TimerEvent: {}
+[6.219482] (-) TimerEvent: {}
+[6.319803] (-) TimerEvent: {}
+[6.420129] (-) TimerEvent: {}
+[6.520453] (-) TimerEvent: {}
+[6.620786] (-) TimerEvent: {}
+[6.721142] (-) TimerEvent: {}
+[6.821514] (-) TimerEvent: {}
+[6.921861] (-) TimerEvent: {}
+[7.022191] (-) TimerEvent: {}
+[7.122503] (-) TimerEvent: {}
+[7.222816] (-) TimerEvent: {}
+[7.323123] (-) TimerEvent: {}
+[7.423426] (-) TimerEvent: {}
+[7.523730] (-) TimerEvent: {}
+[7.624048] (-) TimerEvent: {}
+[7.724379] (-) TimerEvent: {}
+[7.824696] (-) TimerEvent: {}
+[7.925010] (-) TimerEvent: {}
+[8.025638] (-) TimerEvent: {}
+[8.125918] (-) TimerEvent: {}
+[8.226221] (-) TimerEvent: {}
+[8.326558] (-) TimerEvent: {}
+[8.426883] (-) TimerEvent: {}
+[8.527212] (-) TimerEvent: {}
+[8.627523] (-) TimerEvent: {}
+[8.727842] (-) TimerEvent: {}
+[8.828159] (-) TimerEvent: {}
+[8.928497] (-) TimerEvent: {}
+[9.028853] (-) TimerEvent: {}
+[9.129175] (-) TimerEvent: {}
+[9.229495] (-) TimerEvent: {}
+[9.329781] (-) TimerEvent: {}
+[9.430090] (-) TimerEvent: {}
+[9.530424] (-) TimerEvent: {}
+[9.630752] (-) TimerEvent: {}
+[9.731068] (-) TimerEvent: {}
+[9.831388] (-) TimerEvent: {}
+[9.931713] (-) TimerEvent: {}
+[10.032042] (-) TimerEvent: {}
+[10.132387] (-) TimerEvent: {}
+[10.232707] (-) TimerEvent: {}
+[10.333046] (-) TimerEvent: {}
+[10.433374] (-) TimerEvent: {}
+[10.533703] (-) TimerEvent: {}
+[10.634038] (-) TimerEvent: {}
+[10.734346] (-) TimerEvent: {}
+[10.834669] (-) TimerEvent: {}
+[10.935031] (-) TimerEvent: {}
+[11.035345] (-) TimerEvent: {}
+[11.135669] (-) TimerEvent: {}
+[11.235987] (-) TimerEvent: {}
+[11.336296] (-) TimerEvent: {}
+[11.436613] (-) TimerEvent: {}
+[11.536941] (-) TimerEvent: {}
+[11.637249] (-) TimerEvent: {}
+[11.737540] (-) TimerEvent: {}
+[11.837864] (-) TimerEvent: {}
+[11.938200] (-) TimerEvent: {}
+[12.038523] (-) TimerEvent: {}
+[12.138852] (-) TimerEvent: {}
+[12.239182] (-) TimerEvent: {}
+[12.339519] (-) TimerEvent: {}
+[12.439836] (-) TimerEvent: {}
+[12.540149] (-) TimerEvent: {}
+[12.640475] (-) TimerEvent: {}
+[12.740805] (-) TimerEvent: {}
+[12.841140] (-) TimerEvent: {}
+[12.941610] (-) TimerEvent: {}
+[13.042194] (-) TimerEvent: {}
+[13.142603] (-) TimerEvent: {}
+[13.242937] (-) TimerEvent: {}
+[13.343257] (-) TimerEvent: {}
+[13.443607] (-) TimerEvent: {}
+[13.543925] (-) TimerEvent: {}
+[13.602326] (qr_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable qr_detector_node\x1b[0m\n'}
+[13.644052] (-) TimerEvent: {}
+[13.744387] (-) TimerEvent: {}
+[13.844778] (-) TimerEvent: {}
+[13.945175] (-) TimerEvent: {}
+[14.045512] (-) TimerEvent: {}
+[14.145875] (-) TimerEvent: {}
+[14.246240] (-) TimerEvent: {}
+[14.346620] (-) TimerEvent: {}
+[14.446934] (-) TimerEvent: {}
+[14.547277] (-) TimerEvent: {}
+[14.647624] (-) TimerEvent: {}
+[14.653669] (qr_detector) StdoutLine: {'line': b'[100%] Built target qr_detector_node\n'}
+[14.664062] (qr_detector) CommandEnded: {'returncode': 0}
+[14.664911] (qr_detector) JobProgress: {'identifier': 'qr_detector', 'progress': 'install'}
+[14.673682] (qr_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_wrs_qr/build/qr_detector'], 'cwd': '/home/ros/ros2_wrs_qr/build/qr_detector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1336'), ('SYSTEMD_EXEC_PID', '1443'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:30210'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/home/ros/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-Inspiron-13-7378:@/tmp/.ICE-unix/1419,unix/ros-Inspiron-13-7378:/tmp/.ICE-unix/1419'), ('INVOCATION_ID', '55e869c712ab442bbaf188d9c4adc885'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J12Q72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f5a5f9eea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_wrs_qr/build/qr_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.681854] (qr_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.682219] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/lib/qr_detector/qr_detector_node\n'}
+[14.686914] (qr_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_wrs_qr/install/qr_detector/lib/qr_detector/qr_detector_node" to ""\n'}
+[14.687192] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/ament_index/resource_index/package_run_dependencies/qr_detector\n'}
+[14.687381] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/ament_index/resource_index/parent_prefix_path/qr_detector\n'}
+[14.687539] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/environment/ament_prefix_path.sh\n'}
+[14.687678] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/environment/ament_prefix_path.dsv\n'}
+[14.687813] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/environment/path.sh\n'}
+[14.687947] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/environment/path.dsv\n'}
+[14.688092] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/local_setup.bash\n'}
+[14.688259] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/local_setup.sh\n'}
+[14.688419] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/local_setup.zsh\n'}
+[14.688579] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/local_setup.dsv\n'}
+[14.688748] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/package.dsv\n'}
+[14.690227] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/ament_index/resource_index/packages/qr_detector\n'}
+[14.690421] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/cmake/qr_detectorConfig.cmake\n'}
+[14.690533] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/cmake/qr_detectorConfig-version.cmake\n'}
+[14.690652] (qr_detector) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_wrs_qr/install/qr_detector/share/qr_detector/package.xml\n'}
+[14.691426] (qr_detector) CommandEnded: {'returncode': 0}
+[14.710202] (qr_detector) JobEnded: {'identifier': 'qr_detector', 'rc': 0}
+[14.710969] (-) EventReactorShutdown: {}

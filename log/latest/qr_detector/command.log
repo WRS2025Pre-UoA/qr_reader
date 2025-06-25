@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/ros2_wrs_qr/build/qr_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros2_wrs_qr/src/qrdetector -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_wrs_qr/install/qr_detector
+Invoked command in '/home/ros/ros2_wrs_qr/build/qr_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros2_wrs_qr/src/qrdetector -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_wrs_qr/install/qr_detector
+Invoking command in '/home/ros/ros2_wrs_qr/build/qr_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_wrs_qr/build/qr_detector -- -j4 -l4
+Invoked command in '/home/ros/ros2_wrs_qr/build/qr_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_wrs_qr/build/qr_detector -- -j4 -l4
+Invoking command in '/home/ros/ros2_wrs_qr/build/qr_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_wrs_qr/build/qr_detector
+Invoked command in '/home/ros/ros2_wrs_qr/build/qr_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_wrs_qr/build/qr_detector

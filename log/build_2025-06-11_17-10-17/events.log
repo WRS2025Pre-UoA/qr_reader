@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000839] (qrdetector) JobQueued: {'identifier': 'qrdetector', 'dependencies': OrderedDict()}
+[0.001123] (qrdetector) JobStarted: {'identifier': 'qrdetector'}
+[0.012365] (qrdetector) JobProgress: {'identifier': 'qrdetector', 'progress': 'cmake'}
+[0.013018] (qrdetector) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_wrs_qr/src/qrdetector', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_wrs_qr/install/qrdetector'], 'cwd': '/home/ros/ros2_wrs_qr/build/qrdetector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1336'), ('SYSTEMD_EXEC_PID', '1443'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10999'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('JOURNAL_STREAM', '8:30210'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.local/bin:/home/ros/bin:/opt/ros/humble/bin:/home/ros/.local/bin:/home/ros/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros-Inspiron-13-7378:@/tmp/.ICE-unix/1419,unix/ros-Inspiron-13-7378:/tmp/.ICE-unix/1419'), ('INVOCATION_ID', '55e869c712ab442bbaf188d9c4adc885'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J12Q72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f5a5f9eea.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros/ros2_wrs_qr/build/qrdetector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100081] (-) TimerEvent: {}
+[0.200550] (-) TimerEvent: {}
+[0.211022] (qrdetector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300784] (-) TimerEvent: {}
+[0.356211] (qrdetector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.367999] (qrdetector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400897] (-) TimerEvent: {}
+[0.459878] (qrdetector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.470326] (qrdetector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.475571] (qrdetector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.478268] (qrdetector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.489259] (qrdetector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501013] (-) TimerEvent: {}
+[0.576839] (qrdetector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.587314] (qrdetector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.587705] (qrdetector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.588414] (qrdetector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.597993] (qrdetector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601115] (-) TimerEvent: {}
+[0.701384] (-) TimerEvent: {}
+[0.801714] (-) TimerEvent: {}
+[0.902002] (-) TimerEvent: {}
+[0.991130] (qrdetector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002167] (-) TimerEvent: {}
+[1.102589] (-) TimerEvent: {}
+[1.114921] (qrdetector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.176889] (qrdetector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.183548] (qrdetector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.194762] (qrdetector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202660] (-) TimerEvent: {}
+[1.213653] (qrdetector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.236024] (qrdetector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.294961] (qrdetector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.298293] (qrdetector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302745] (-) TimerEvent: {}
+[1.398194] (qrdetector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.402831] (-) TimerEvent: {}
+[1.434665] (qrdetector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.482738] (qrdetector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.493845] (qrdetector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502953] (-) TimerEvent: {}
+[1.564849] (qrdetector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.565365] (qrdetector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.603083] (-) TimerEvent: {}
+[1.636668] (qrdetector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.637832] (qrdetector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.703179] (-) TimerEvent: {}
+[1.716285] (qrdetector) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.762103] (qrdetector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.777341] (qrdetector) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.803311] (-) TimerEvent: {}
+[1.827988] (qrdetector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.832156] (qrdetector) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.833144] (qrdetector) StdoutLine: {'line': b"-- Checking for module 'zbar'\n"}
+[1.835556] (qrdetector) StdoutLine: {'line': b"--   No package 'zbar' found\n"}
+[1.835872] (qrdetector) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):\n'}
+[1.836033] (qrdetector) StderrLine: {'line': b'  A required package was not found\n'}
+[1.836183] (qrdetector) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.836292] (qrdetector) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)\n'}
+[1.836398] (qrdetector) StderrLine: {'line': b'  CMakeLists.txt:24 (pkg_check_modules)\n'}
+[1.836504] (qrdetector) StderrLine: {'line': b'\n'}
+[1.836605] (qrdetector) StderrLine: {'line': b'\x1b[0m\n'}
+[1.836744] (qrdetector) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.836876] (qrdetector) StdoutLine: {'line': b'See also "/home/ros/ros2_wrs_qr/build/qrdetector/CMakeFiles/CMakeOutput.log".\n'}
+[1.848381] (qrdetector) CommandEnded: {'returncode': 1}
+[1.871735] (qrdetector) JobEnded: {'identifier': 'qrdetector', 'rc': 1}
+[1.872858] (-) EventReactorShutdown: {}
